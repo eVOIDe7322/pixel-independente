@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore seis jogos reais por gênero, conheça seus estúdios e acesse os sites oficiais.">
+    <meta name="author" content="Lucas Medina Ladeira">
+    <meta name="theme-color" content="#171d25">
+    <title>Jogos | Pixel Independente</title>
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/tema-loja.css">
+</head>
+<body>
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg" aria-label="Menu principal">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><span class="simbolo" aria-hidden="true"></span>PIXEL INDEPENDENTE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir ou fechar menu"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse justify-content-end" id="menu-principal"><ul class="navbar-nav"><li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+<li class="nav-item"><a class="nav-link active" href="jogos.html" aria-current="page">Jogos</a></li>
+<li class="nav-item"><a class="nav-link" href="desenvolvimento.html">Desenvolvimento</a></li></ul></div>
+            </div>
+        </nav>
+    </header>
+    <div class="menu-loja"><nav class="container" aria-label="Explorar a vitrine"><a href="jogos.html">Catálogo</a><a href="desenvolvimento.html">Criação de jogos</a><a href="desenvolvimento.html#fontes">Fontes e créditos</a><span class="rotulo-loja">SELEÇÃO INDEPENDENTE</span></nav></div>
+    <main id="conteudo">
+        <header class="introducao-interna"><div class="container"><span class="etiqueta">O catálogo</span><h1>Seis caminhos.<br>Qual é o seu?</h1><p>Explore a seleção por gênero e descubra o que torna cada aventura diferente. Todos os títulos apresentados são jogos reais.</p></div></header>
+        <section class="catalogo" aria-label="Catálogo de jogos independentes"><div class="container">
+            <div class="filtros-barra"><div class="filtros" role="group" aria-label="Filtrar jogos por gênero"><button type="button" class="filtro" data-filtro="todos" aria-pressed="true">Todos</button><button type="button" class="filtro" data-filtro="exploracao" aria-pressed="false">Exploração</button><button type="button" class="filtro" data-filtro="plataforma" aria-pressed="false">Plataforma</button><button type="button" class="filtro" data-filtro="simulacao" aria-pressed="false">Simulação</button><button type="button" class="filtro" data-filtro="acao" aria-pressed="false">Ação</button><button type="button" class="filtro" data-filtro="rpg" aria-pressed="false">RPG</button></div><span class="contador" id="contador-jogos" role="status" aria-live="polite">6 jogos encontrados</span></div>
+            <noscript><p>Os seis jogos estão disponíveis abaixo. Ative o JavaScript se quiser usar os filtros.</p></noscript>
+            <div class="row g-4">                <div class="col-12 col-md-6 col-lg-4 jogo-coluna" data-genero="exploracao acao">
+                    <article class="card jogo" id="hollow-knight" aria-labelledby="titulo-hollow-knight">
+                        <img class="card-img-top" src="assets/img/hollow-knight-capa.jpg" width="460" height="215" loading="lazy" alt="Arte promocional de Hollow Knight">
+                        <div class="card-body"><div class="jogo-topo"><span class="genero">Exploração e ação</span><span class="ano">PC · 2017</span></div>
+                            <h2 id="titulo-hollow-knight">Hollow Knight</h2><span class="estudio">Team Cherry</span>
+                            <p>Sob a pequena cidade de Dirtmouth existe Hallownest, um reino subterrâneo cheio de caminhos conectados e segredos. Hollow Knight combina exploração, combates desafiadores e novas habilidades que permitem alcançar outras áreas. A arte desenhada à mão e os encontros com habitantes desse mundo ajudam a contar sua história sem interromper a aventura.</p>
+                            <div class="jogo-links"><a href="https://www.hollowknight.com/" target="_blank" rel="noopener noreferrer" aria-label="Site oficial de Hollow Knight (abre em nova aba)">Site oficial <span aria-hidden="true">↗</span></a><a href="https://store.steampowered.com/app/367520/" target="_blank" rel="noopener noreferrer" aria-label="Ver Hollow Knight na Steam (abre em nova aba)">Ver na Steam <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                </div>                <div class="col-12 col-md-6 col-lg-4 jogo-coluna" data-genero="plataforma">
+                    <article class="card jogo" id="celeste" aria-labelledby="titulo-celeste">
+                        <img class="card-img-top" src="assets/img/celeste-capa.jpg" width="460" height="215" loading="lazy" alt="Arte promocional de Celeste">
+                        <div class="card-body"><div class="jogo-topo"><span class="genero">Plataforma</span><span class="ano">PC · 2018</span></div>
+                            <h2 id="titulo-celeste">Celeste</h2><span class="estudio">Maddy Makes Games / Extremely OK Games</span>
+                            <p>Madeline parte em direção ao topo da montanha Celeste. Para acompanhá-la, o jogador precisa dominar saltos, escaladas e movimentos no ar em fases de plataforma. Cada trecho apresenta um novo obstáculo, e tentar novamente faz parte do caminho. A jornada aproxima os desafios da montanha dos conflitos que a protagonista enfrenta consigo mesma.</p>
+                            <div class="jogo-links"><a href="https://www.celestegame.com/" target="_blank" rel="noopener noreferrer" aria-label="Site oficial de Celeste (abre em nova aba)">Site oficial <span aria-hidden="true">↗</span></a><a href="https://store.steampowered.com/app/504230/" target="_blank" rel="noopener noreferrer" aria-label="Ver Celeste na Steam (abre em nova aba)">Ver na Steam <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                </div>                <div class="col-12 col-md-6 col-lg-4 jogo-coluna" data-genero="simulacao rpg">
+                    <article class="card jogo" id="stardew-valley" aria-labelledby="titulo-stardew-valley">
+                        <img class="card-img-top" src="assets/img/stardew-valley-capa.jpg" width="460" height="215" loading="lazy" alt="Arte promocional de Stardew Valley">
+                        <div class="card-body"><div class="jogo-topo"><span class="genero">Simulação e RPG</span><span class="ano">PC · 2016</span></div>
+                            <h2 id="titulo-stardew-valley">Stardew Valley</h2><span class="estudio">ConcernedApe</span>
+                            <p>Uma fazenda herdada do avô é o ponto de partida para uma nova vida no campo. Em Stardew Valley, plantar, cuidar dos animais, pescar e explorar cavernas são algumas das atividades disponíveis. Conhecer os moradores de Pelican Town também faz parte da experiência, que permite organizar a rotina e desenvolver a propriedade no próprio ritmo.</p>
+                            <div class="jogo-links"><a href="https://www.stardewvalley.net/" target="_blank" rel="noopener noreferrer" aria-label="Site oficial de Stardew Valley (abre em nova aba)">Site oficial <span aria-hidden="true">↗</span></a><a href="https://store.steampowered.com/app/413150/" target="_blank" rel="noopener noreferrer" aria-label="Ver Stardew Valley na Steam (abre em nova aba)">Ver na Steam <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                </div>                <div class="col-12 col-md-6 col-lg-4 jogo-coluna" data-genero="acao">
+                    <article class="card jogo" id="hades" aria-labelledby="titulo-hades">
+                        <img class="card-img-top" src="assets/img/hades-capa.jpg" width="460" height="215" loading="lazy" alt="Arte promocional de Hades">
+                        <div class="card-body"><div class="jogo-topo"><span class="genero">Ação e roguelike</span><span class="ano">PC · 2020</span></div>
+                            <h2 id="titulo-hades">Hades</h2><span class="estudio">Supergiant Games</span>
+                            <p>Hades transforma uma tentativa de escapar do submundo da mitologia grega em um jogo de ação. Combates rápidos e diferentes combinações de poderes mudam o percurso de uma tentativa para outra. Os personagens e seus diálogos dão continuidade à narrativa, fazendo com que o retorno ao início também faça parte da história.</p>
+                            <div class="jogo-links"><a href="https://www.supergiantgames.com/games/hades/" target="_blank" rel="noopener noreferrer" aria-label="Site oficial de Hades (abre em nova aba)">Site oficial <span aria-hidden="true">↗</span></a><a href="https://store.steampowered.com/app/1145360/" target="_blank" rel="noopener noreferrer" aria-label="Ver Hades na Steam (abre em nova aba)">Ver na Steam <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                </div>                <div class="col-12 col-md-6 col-lg-4 jogo-coluna" data-genero="acao plataforma exploracao">
+                    <article class="card jogo" id="dead-cells" aria-labelledby="titulo-dead-cells">
+                        <img class="card-img-top" src="assets/img/dead-cells-capa.jpg" width="460" height="215" loading="lazy" alt="Arte promocional de Dead Cells">
+                        <div class="card-body"><div class="jogo-topo"><span class="genero">Ação e plataforma</span><span class="ano">PC · 2018</span></div>
+                            <h2 id="titulo-dead-cells">Dead Cells</h2><span class="estudio">Motion Twin</span>
+                            <p>Um castelo em constante mudança serve de cenário para combates em duas dimensões. Dead Cells combina armas, habilidades e rotas alternativas em uma estrutura na qual morrer significa começar uma nova tentativa. Observar os inimigos e aprender com cada erro é essencial para avançar, encontrar passagens e experimentar outras formas de jogar.</p>
+                            <div class="jogo-links"><a href="https://deadcells.com/" target="_blank" rel="noopener noreferrer" aria-label="Site oficial de Dead Cells (abre em nova aba)">Site oficial <span aria-hidden="true">↗</span></a><a href="https://store.steampowered.com/app/588650/" target="_blank" rel="noopener noreferrer" aria-label="Ver Dead Cells na Steam (abre em nova aba)">Ver na Steam <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                </div>                <div class="col-12 col-md-6 col-lg-4 jogo-coluna" data-genero="rpg exploracao">
+                    <article class="card jogo" id="sea-of-stars" aria-labelledby="titulo-sea-of-stars">
+                        <img class="card-img-top" src="assets/img/sea-of-stars-capa.jpg" width="460" height="215" loading="lazy" alt="Arte promocional de Sea of Stars">
+                        <div class="card-body"><div class="jogo-topo"><span class="genero">RPG por turnos</span><span class="ano">PC · 2023</span></div>
+                            <h2 id="titulo-sea-of-stars">Sea of Stars</h2><span class="estudio">Sabotage Studio</span>
+                            <p>Sea of Stars parte dos RPGs clássicos para construir uma aventura com exploração, amizade e combates por turnos. Pressionar os comandos no momento certo pode melhorar ataques e defesas. Fora das batalhas, o grupo atravessa cenários em pixel art, resolve desafios e encontra atividades como pesca e culinária ao longo da viagem.</p>
+                            <div class="jogo-links"><a href="https://seaofstarsgame.co/" target="_blank" rel="noopener noreferrer" aria-label="Site oficial de Sea of Stars (abre em nova aba)">Site oficial <span aria-hidden="true">↗</span></a><a href="https://store.steampowered.com/app/1244090/" target="_blank" rel="noopener noreferrer" aria-label="Ver Sea of Stars na Steam (abre em nova aba)">Ver na Steam <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                </div></div>
+            <p class="credito-catalogo">Anos referentes aos lançamentos no PC. Informações baseadas nos sites oficiais e nas páginas dos jogos na Steam. Imagens promocionais creditadas aos respectivos titulares. <a href="desenvolvimento.html#fontes">Consultar fontes e créditos</a>.</p>
+        </div></section>
+    </main>
+    <footer class="rodape">
+        <div class="container rodape-grade">
+            <div><span class="marca-rodape">Pixel Independente</span><small>Lucas Medina Ladeira · Atividade Integradora de Desenvolvimento Front-end · 2026</small><small>Projeto acadêmico sem vínculo com os estúdios. Jogos e imagens pertencem aos respectivos titulares.</small></div>
+            <nav class="rodape-links" aria-label="Menu do rodapé"><a href="index.html">Início</a><a href="jogos.html">Jogos</a><a href="desenvolvimento.html#fontes">Fontes e créditos</a></nav>
+        </div>
+    </footer>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/catalogo.js"></script>
+</body>
+</html>

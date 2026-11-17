@@ -1,0 +1,13 @@
+Pixel Independente
+Aluno: Lucas Medina Ladeira
+
+Para abrir localmente, abra index.html em um navegador.
+Mantenha as páginas e a pasta assets na mesma estrutura.
+Não é necessário instalar dependências ou executar um build.
+
+Tecnologias: HTML, CSS, JavaScript e Bootstrap 5.3.3.
+Páginas: Início, Jogos e Desenvolvimento.
+Todos os seis jogos apresentados são reais.
+As imagens e o Bootstrap estão incluídos em arquivos locais.
+Os links para os sites dos jogos exigem conexão com a internet.
+Fontes das informações e imagens: desenvolvimento.html#fontes e creditos-imagens.txt.

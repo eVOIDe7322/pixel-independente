@@ -1,0 +1,114 @@
+/* Aparência da vitrine inspirada na loja Steam. */
+:root {
+    color-scheme: dark;
+    --fundo: #1b2838;
+    --papel: #16202d;
+    --texto: #edf2f7;
+    --secundario: #b8c6d5;
+    --azul: #66c0f4;
+    --borda: #34465b;
+}
+body { background: #1b2838; }
+a:hover { color: #ffffff; }
+h1, h2, h3 { letter-spacing: 0; }
+.container { max-width: 1120px; }
+.cabecalho { background: #171d25; border: 0; }
+.navbar { min-height: 100px; }
+.navbar-brand, .navbar-brand:hover { color: #dcdedf; letter-spacing: .025em; }
+.simbolo { background: #dcdedf; }
+.navbar .nav-link { color: #dcdedf; text-transform: uppercase; font-weight: 700; font-size: .86rem; }
+.navbar .nav-link:hover, .navbar .nav-link.active { color: #1a9fff; }
+.navbar .nav-link.active::after { background: #1a9fff; width: 100%; }
+.navbar-toggler { border-color: #566274; }
+.navbar-toggler-icon { filter: invert(1) grayscale(1) brightness(2); }
+.menu-loja { padding-top: 26px; }
+.menu-loja .container { padding: 0; background: #315d8c; display: flex; align-items: center; flex-wrap: wrap; }
+.menu-loja a { color: #edf5ff; text-decoration: none; font-size: .87rem; padding: 11px 22px; font-weight: 700; }
+.menu-loja a:hover { background: #224264; }
+.menu-loja .rotulo-loja { margin-left: auto; padding: 0 18px; color: #d6e6f7; font-size: .75rem; letter-spacing: .08em; }
+.etiqueta, .numero { color: #b8d5ef; font-weight: 400; letter-spacing: .12em; }
+.abertura { padding: 30px 0 36px; }
+.titulo-vitrine { text-transform: uppercase; font-size: .92rem; font-weight: 400; letter-spacing: .1em; margin: 0 0 15px; }
+.hero-grade { grid-template-columns: 1.3fr 1fr; gap: 0; align-items: stretch; background: #101822; box-shadow: 0 0 15px #101822; padding: 0; }
+.hero-grade > div { padding: 28px; align-self: center; }
+.hero-grade .destaque { order: -1; border-radius: 0; background: #101822; }
+.hero-grade h1 { font-size: clamp(1.9rem, 3.1vw, 2.6rem); font-weight: 400; margin-bottom: 18px; }
+.hero-grade p { font-size: .94rem; color: #c4d0df; }
+.hero-grade .etiqueta { font-size: .68rem; color: #66c0f4; margin-bottom: 15px; }
+.destaque img { aspect-ratio: 1.55; }
+.destaque figcaption { padding: 14px 20px; font-size: .75rem; }
+.destaque figcaption strong { font-size: 1.2rem; font-weight: 400; }
+.btn { border-radius: 2px; padding: 10px 16px; font-weight: 400; font-size: .87rem; }
+.btn-primary { --bs-btn-bg: #235f8b; --bs-btn-color: #d8f0ff; --bs-btn-border-color: #235f8b; --bs-btn-hover-bg: #348bc2; --bs-btn-hover-border-color: #348bc2; --bs-btn-hover-color: white; }
+.btn-outline-secondary { --bs-btn-color: #c8d6e5; --bs-btn-border-color: #52667d; --bs-btn-hover-bg: #3b4c60; --bs-btn-hover-border-color: #7b95b4; --bs-btn-hover-color: white; }
+.botoes { gap: 10px; margin-top: 22px; }
+.faixa { background: #16202d; border-color: #26394e; }
+.faixa span { color: #8fa9c2; }
+.faixa strong { color: #c7d5e0; }
+.secao { padding: 42px 0; }
+.cabecalho-secao h2, .faq h2, #titulo-fontes { font-size: 1.2rem; text-transform: uppercase; font-weight: 400; letter-spacing: .06em; }
+.cabecalho-secao a { font-size: .8rem; font-weight: 400; }
+.editorial { gap: 24px; }
+.editorial article { border-top: 1px solid #4d6075; padding: 20px; background: #223449; }
+.editorial h3 { font-size: 1.15rem; font-weight: 400; line-height: 1.35; }
+.editorial p { font-size: .88rem; }
+.fundo-branco { background: #172230; border-color: #26394e; }
+.sugestao a, .etapa img { border-radius: 0; }
+.sugestao { background: #223449; }
+.sugestao figcaption { padding: 15px 18px; color: #a9c3db; }
+.sugestao strong { color: white; }
+.introducao-interna { padding: 35px 0 25px; }
+.introducao-interna h1 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 400; }
+.introducao-interna p { font-size: .98rem; }
+.filtro { background: #23394e; border-color: #415a72; color: #bed5e7; border-radius: 2px; }
+.filtro[aria-pressed='true'] { background: #66c0f4; border-color: #66c0f4; color: #12253a; }
+.filtro:hover { background: #36566f; color: white; border-color: #66c0f4; }
+.jogo { border: 0; border-radius: 0; background: #16202d; box-shadow: 0 2px 7px #101822; transition: background .2s; }
+.jogo:hover { background: #233a50; }
+.jogo .card-body { padding: 20px; }
+.jogo h2 { color: white; font-size: 1.45rem; font-weight: 400; }
+.jogo .genero { color: #a4c9e2; font-weight: 400; font-size: .67rem; background: #263d52; padding: 3px 6px; }
+.jogo .ano { color: #b9d4e4; background: #0f1922; padding: 2px 7px; }
+.jogo p { color: #b9c8d9; font-size: .88rem; }
+.estudio { color: #8fa9c2; }
+.jogo-links { border-color: #35495e; }
+.jogo-links a { color: #8bcbed; font-weight: 400; }
+.jogo-links a:hover { color: white; }
+.credito-catalogo { border-color: #34465b; color: #9fb2c5; }
+.etapa { border-color: #34465b; }
+.etapa h2 { font-weight: 400; }
+.etapa p, .etapa figcaption { color: #b8c6d5; }
+.accordion { --bs-accordion-bg: #1b2b3c; --bs-accordion-color: #c7d5e0; --bs-accordion-btn-bg: #22364b; --bs-accordion-btn-color: #c7d5e0; --bs-accordion-border-color: #344b63; --bs-accordion-active-bg: #315978; --bs-accordion-active-color: white; }
+.accordion-button { font-weight: 400; }
+.accordion-button::after { filter: brightness(0) invert(1); }
+.accordion-body { color: #c7d5e0; }
+.rodape { background: #171d25; border-top: 1px solid #34465b; }
+.pular-conteudo { color: #12253a; }
+:focus-visible { outline-color: #66c0f4; }
+@media (max-width: 991.98px) {
+    .container { max-width: 92%; }
+    .menu-loja .container { max-width: 89%; }
+    .menu-loja .rotulo-loja { display: none; }
+    .navbar-collapse { border-color: #3b4e64; }
+    .hero-grade { grid-template-columns: 1.1fr 1fr; }
+    .hero-grade > div { padding: 20px; }
+    .hero-grade h1 { font-size: 1.9rem; }
+    .hero-grade .destaque img { height: 100%; min-height: 330px; aspect-ratio: auto; }
+    .hero-grade .destaque { display: flex; flex-direction: column; }
+    .destaque > a { flex: 1; overflow: hidden; }
+}
+@media (max-width: 575.98px) {
+    .container { max-width: 100%; }
+    .navbar { min-height: 82px; }
+    .navbar-brand { font-size: .95rem; }
+    .menu-loja { padding-top: 14px; }
+    .menu-loja .container { max-width: calc(100% - 44px); }
+    .menu-loja a { font-size: .75rem; padding: 9px 12px; }
+    .hero-grade { grid-template-columns: 1fr; max-width: calc(100% - 44px); }
+    .hero-grade .destaque img { height: auto; min-height: 0; aspect-ratio: 16/10; }
+    .hero-grade h1 { font-size: 2rem; }
+    .hero-grade > div { padding: 24px; }
+    .abertura { padding-top: 22px; }
+    .editorial { gap: 18px; }
+    .introducao-interna h1 { font-size: 2.2rem; }
+}
